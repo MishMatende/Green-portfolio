@@ -245,6 +245,7 @@ form {
   border-radius: 8px;
   width: fit-content;
   align-self: center;
+  border: none;
 }
 
 #msg {
