@@ -68,13 +68,19 @@ nav {
   gap: 32px;
 }
 
-nav a {
+nav a,
+.instagram {
   cursor: pointer;
   text-decoration: none;
 }
 
-nav a:hover {
+nav a:hover,
+.instagram:hover {
   opacity: 0.7;
+}
+
+.resumeBtn {
+  display: none;
 }
 
 .name-container {
@@ -127,6 +133,10 @@ nav a:hover {
   line-height: 1.5em;
 }
 
+.links {
+  display: flex;
+}
+
 .outreach {
   display: flex;
   align-items: center;
@@ -143,6 +153,10 @@ nav a:hover {
 
 .outreach i {
   transform: rotate(-45deg);
+}
+
+.resumeBtn2 {
+  display: flex;
 }
 
 .project-container {
@@ -205,6 +219,10 @@ nav a:hover {
   font-size: 0.9em;
 }
 
+.contact {
+  padding-top: 20px;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -254,5 +272,13 @@ form {
 
   .submitBtn {
     align-self: flex-end;
+  }
+
+  .resumeBtn2 {
+    display: none;
+  }
+
+  .resumeBtn {
+    display: flex;
   }
 }
