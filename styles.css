@@ -246,6 +246,7 @@ form {
   width: fit-content;
   align-self: center;
   border: none;
+  color: #0d1512;
 }
 
 #msg {
