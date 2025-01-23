@@ -28,11 +28,17 @@
           href="https://github.com/MishMatende"
           target="_blank"
           >GitHub</a
-        ><a
+        ><!-- ><a
           class="darker-text"
           href="https://www.linkedin.com/in/mishael-matende-3668b2240/"
           target="_blank"
           >LinkedIn</a
+        > -->
+        <a
+          href="/resources/Mishael Matende Resume.pdf"
+          class="darker-text"
+          target="_blank"
+          >Resume</a
         >
       </nav>
     </header>
@@ -40,7 +46,7 @@
       <section>
         <div class="name-container">
           <h1>Mishael Matende</h1>
-          <p class="darker-text">I wirte code & build projects.</p>
+          <p class="darker-text">I write code & build projects.</p>
         </div>
         <div class="stats-container">
           <div class="image-container">
@@ -74,7 +80,7 @@
         </div>
       </section>
       <section class="project-container">
-        <p class="darker-text header-text">Latest Projects</p>
+        <h1 class="darker-text header-text">Latest Projects</h1>
         <div class="project-item">
           <div>
             <!-- Add Dynamic Date -->
@@ -150,7 +156,7 @@
             <!-- Add Dynamic Date -->
             <p class="darker-text">Oct 28, 2024.</p>
             <p>
-              APOD-React is a project that I developed in order to show my
+              APOD-React is a project that I developed as a tool to show my
               understanding of API intergration and Browser caching.
             </p>
             <div class="link-container">
@@ -181,6 +187,54 @@
           </div>
         </div>
       </section>
+
+      <!-- Contact Section -->
+      <section>
+        <div class="contact-container" id="contact">
+          <div class="container">
+            <h1 class="darker-text header-text">Send Message <i class="fa-solid fa-paper-plane"></i></h1>
+
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input
+                  class="inputStyle"
+                  type="text"
+                  name="Name"
+                  placeholder="Your Name"
+                  required
+                />
+                <input
+                  class="inputStyle"
+                  type="email"
+                  name="Email"
+                  placeholder="Your Email"
+                  required
+                />
+                <textarea
+                  class="inputStyle"
+                  name="Message"
+                  rows="6"
+                  placeholder="Your Message"
+                ></textarea>
+                <button type="submit" class="submitBtn" id="submission">
+                  Submit </i>
+                </button>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div></div>
+        <div class="copyright">
+          <p>
+            Copyright © <span id="copyright-span" class="darker-text"></span>.
+          </p>
+          <p>Made by <span class="darker-text">Mishael Matende.</span></p>
+        </div>
+      </footer>
     </main>
+    <script src="/index.js"></script>
   </body>
 </html>

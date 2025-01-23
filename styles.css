@@ -205,6 +205,39 @@ nav a:hover {
   font-size: 0.9em;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.inputStyle {
+  color: white;
+  border: solid 4px var(--primary-color);
+  border-radius: 8px;
+  background: transparent;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.submitBtn {
+  background: var(--secondary-color);
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 8px;
+  width: fit-content;
+  align-self: center;
+}
+
+#msg {
+  color: blue;
+  display: block;
+}
+
+.copyright {
+  text-align: center;
+}
+
 @media (min-width: 640px) {
   .stats-container {
     flex-direction: row;
@@ -217,5 +250,9 @@ nav a:hover {
   .about-me {
     width: 80%;
     margin-right: auto;
+  }
+
+  .submitBtn {
+    align-self: flex-end;
   }
 }
